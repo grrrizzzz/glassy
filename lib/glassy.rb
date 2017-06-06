@@ -1,5 +1,9 @@
-require "glassy/version"
+require 'glassy/version'
 
 module Glassy
-  # Your code goes here...
+  class Location
+    def self.where?
+      p 'Here!'
+    end
+  end
 end

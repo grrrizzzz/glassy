@@ -1,11 +1,11 @@
-require "spec_helper"
+require 'spec_helper'
 
 RSpec.describe Glassy do
-  it "has a version number" do
+  it 'has a version number' do
     expect(Glassy::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it 'returns a glassy location' do
+    expect(Glass::Location.where?).to be 'Here!'
   end
 end
