@@ -6,6 +6,6 @@ RSpec.describe Glassy do
   end
 
   it 'returns a glassy location' do
-    expect(Glass::Location.where?).to be 'Here!'
+    expect(Glassy::Location.where?).to eq 'Here!'
   end
 end

@@ -7,19 +7,15 @@ Gem::Specification.new do |spec|
   spec.name          = 'glassy'
   spec.version       = Glassy::VERSION
   spec.authors       = ['Mike Grissom']
-  spec.email         = ['mike.grissom@opower.com']
+  spec.email         = ['lmgrissom@gmail.com']
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = 'TODO: Put your gem\'s website or public repo URL here.'
-
-  spec.files         = `git ls-files -z`.split('\x0').reject do |f|
-    f.match(%r{^(test|spec|features)/})
-  end
-  spec.bindir        = 'exe'
+  spec.summary       = %q{Know when to go!}
+  spec.description   = %q{Get alerts when it's gonna be glassy!}
   spec.require_paths = ['lib']
 
-  spec.add_development_dependency 'bundler', '~> 1.15'
+  spec.add_development_dependency 'bundler', '~> 1.10.6'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
+  spec.add_development_dependency 'factory_girl', '~> 4.0'
+  spec.add_development_dependency 'pry'
 end
