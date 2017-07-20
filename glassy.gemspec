@@ -16,6 +16,8 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'json'#, '~> 1.8.7'
   spec.add_runtime_dependency 'nokogiri', '~> 1.6', '>= 1.6.6.2'
   spec.add_runtime_dependency 'httparty', '~> 0.15.5'
+  spec.add_runtime_dependency 'activesupport', '~> 4.2.6'
+
   spec.add_development_dependency 'bundler'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
